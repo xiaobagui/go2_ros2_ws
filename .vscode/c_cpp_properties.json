@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/msr/new/go2_ros2_ws/install/go2_sport_api/include/**",
+        "/home/msr/new/go2_ros2_ws/install/unitree_go/include/**",
+        "/home/msr/new/go2_ros2_ws/install/unitree_api/include/**",
+        "/home/msr/unitree_ros2/cyclonedds_ws/install/unitree_hg/include/**",
+        "/home/msr/unitree_ros2/cyclonedds_ws/install/unitree_go/include/**",
+        "/home/msr/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+        "/home/msr/ros2_ws/install/motion_capture_tracking/include/**",
+        "/home/msr/ros2_ws/install/motion_capture_tracking_interfaces/include/**",
+        "/home/msr/ros2_ws/install/crazyflie_interfaces/include/**",
+        "/home/msr/ros_ws/install/mavros_extras/include/**",
+        "/home/msr/ros_ws/install/mavros/include/**",
+        "/home/msr/ros_ws/install/mavros_msgs/include/**",
+        "/home/msr/ros_ws/install/libmavconn/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/msr/new/go2_ros2_ws/src/go2_ros2_toolbox/go2_perception/include/**",
+        "/home/msr/new/go2_ros2_ws/src/go2_ros2_toolbox/unitree_pkgs/go2_sport_api/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

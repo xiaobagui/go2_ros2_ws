@@ -1,0 +1,73 @@
+[0.447s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_core:/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/home/unitree/go2_ros2_ws/install/go2_perception:/home/unitree/go2_ros2_ws/install/go2_navigation:/home/unitree/go2_ros2_ws/install/go2_slam:/home/unitree/go2_ros2_ws/install/go2_h264_repub:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy PYTHONPATH=/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_navigation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_navigation
+[0.654s] -- The C compiler identification is GNU 9.4.0
+[0.811s] -- The CXX compiler identification is GNU 9.4.0
+[0.826s] -- Check for working C compiler: /usr/bin/cc
+[0.986s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.990s] -- Detecting C compiler ABI info
+[1.147s] -- Detecting C compiler ABI info - done
+[1.180s] -- Detecting C compile features
+[1.181s] -- Detecting C compile features - done
+[1.188s] -- Check for working CXX compiler: /usr/bin/c++
+[1.356s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.360s] -- Detecting CXX compiler ABI info
+[1.534s] -- Detecting CXX compiler ABI info - done
+[1.571s] -- Detecting CXX compile features
+[1.571s] -- Detecting CXX compile features - done
+[1.585s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.646s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.168s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.354s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.362s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.363s] -- Added test 'lint_cmake' to check CMake code style
+[2.364s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.368s] -- Added test 'xmllint' to check XML markup files
+[2.373s] -- Configuring done
+[2.377s] -- Generating done
+[2.379s] -- Build files have been written to: /home/unitree/go2_ros2_ws/build/go2_navigation
+[2.388s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_core:/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/home/unitree/go2_ros2_ws/install/go2_perception:/home/unitree/go2_ros2_ws/install/go2_navigation:/home/unitree/go2_ros2_ws/install/go2_slam:/home/unitree/go2_ros2_ws/install/go2_h264_repub:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy PYTHONPATH=/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_navigation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_navigation
+[2.396s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_core:/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/home/unitree/go2_ros2_ws/install/go2_perception:/home/unitree/go2_ros2_ws/install/go2_navigation:/home/unitree/go2_ros2_ws/install/go2_slam:/home/unitree/go2_ros2_ws/install/go2_h264_repub:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy PYTHONPATH=/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j6 -l6
+[2.495s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_core:/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/home/unitree/go2_ros2_ws/install/go2_perception:/home/unitree/go2_ros2_ws/install/go2_navigation:/home/unitree/go2_ros2_ws/install/go2_slam:/home/unitree/go2_ros2_ws/install/go2_h264_repub:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy PYTHONPATH=/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j6 -l6
+[2.579s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_core:/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/home/unitree/go2_ros2_ws/install/go2_perception:/home/unitree/go2_ros2_ws/install/go2_navigation:/home/unitree/go2_ros2_ws/install/go2_slam:/home/unitree/go2_ros2_ws/install/go2_h264_repub:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy PYTHONPATH=/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation
+[2.600s] -- Install configuration: ""
+[2.600s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/pythonpath.sh
+[2.601s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/pythonpath.dsv
+[2.601s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation
+[2.601s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/auto_global_localizer.py
+[2.601s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/__init__.py
+[2.602s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/tcp_client_standalone.py
+[2.602s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/navigation_command_tcpbridge.py
+[2.670s] Listing '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation'...
+[2.671s] Compiling '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/__init__.py'...
+[2.671s] Compiling '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/auto_global_localizer.py'...
+[2.671s] Compiling '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/navigation_command_tcpbridge.py'...
+[2.671s] Compiling '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages/go2_navigation/tcp_client_standalone.py'...
+[2.681s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config
+[2.681s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml.bak.static_layer_fix
+[2.682s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml.bak.20260710_154049
+[2.682s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml
+[2.682s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml.bak.20260709_200708
+[2.682s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml.bak.costmap_fix
+[2.683s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml.bak.nav2_slow
+[2.683s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch
+[2.684s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch/go2_nav2.launch.py
+[2.684s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch/go2_localization_nav.launch.py
+[2.684s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch/__pycache__
+[2.685s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch/__pycache__/go2_localization_nav.launch.cpython-310.pyc
+[2.685s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/lib/go2_navigation/auto_global_localizer.py
+[2.686s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/package_run_dependencies/go2_navigation
+[2.686s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/parent_prefix_path/go2_navigation
+[2.687s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/ament_prefix_path.sh
+[2.687s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/ament_prefix_path.dsv
+[2.688s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/path.sh
+[2.688s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/path.dsv
+[2.688s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.bash
+[2.689s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.sh
+[2.689s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.zsh
+[2.690s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.dsv
+[2.690s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.dsv
+[2.691s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/packages/go2_navigation
+[2.691s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/cmake/go2_navigationConfig.cmake
+[2.692s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/cmake/go2_navigationConfig-version.cmake
+[2.692s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.xml
+[2.699s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_core:/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/home/unitree/go2_ros2_ws/install/go2_perception:/home/unitree/go2_ros2_ws/install/go2_navigation:/home/unitree/go2_ros2_ws/install/go2_slam:/home/unitree/go2_ros2_ws/install/go2_h264_repub:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy PYTHONPATH=/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation
