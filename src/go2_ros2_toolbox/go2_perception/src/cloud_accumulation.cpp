@@ -7,6 +7,7 @@
 
 sensor_msgs::msg::PointCloud2 accumulated_cloud;
 std::vector<sensor_msgs::msg::PointCloud2::ConstSharedPtr> clouds;
+bool has_accumulated_cloud = false;
 
 void cloudCallback(
 sensor_msgs::msg::PointCloud2::ConstSharedPtr cloud_msg)
@@ -62,6 +63,7 @@ sensor_msgs::msg::PointCloud2::ConstSharedPtr cloud_msg)
 
     accumulated_cloud = filtered_cloud;
     accumulated_cloud.header.frame_id = "odom";
+    has_accumulated_cloud = true;
 }
 
 int main(int argc, char * argv[])
@@ -84,10 +86,13 @@ int main(int argc, char * argv[])
   executor.add_node(node);
   rclcpp::Rate rate(50.0);
   while (rclcpp::ok()) {
-    accumulated_cloud.header.stamp = node->get_clock()->now();
-    pub->publish(accumulated_cloud);
-
     executor.spin_some();
+
+    if (has_accumulated_cloud) {
+      accumulated_cloud.header.stamp = node->get_clock()->now();
+      pub->publish(accumulated_cloud);
+    }
+
     rate.sleep();
   }
 

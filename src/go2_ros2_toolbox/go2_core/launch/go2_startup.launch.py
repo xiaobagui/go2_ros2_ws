@@ -19,13 +19,24 @@ def generate_launch_description():
     # 设置配置文件路径
     rviz_config_path = os.path.join(go2_core_dir, 'config', 'default.rviz')
 
+    use_rviz_arg = DeclareLaunchArgument(
+        'use_rviz',
+        default_value='true',
+        description='Whether to start RViz'
+    )
+    video_enable_arg = DeclareLaunchArgument(
+        'video_enable',
+        default_value='true',
+        description='Whether to start the camera video stream node'
+    )
+
     # 1. 启动基础节点
     go2_base_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             os.path.join(go2_core_dir, 'launch', 'go2_base.launch.py')
         ]),
         launch_arguments={
-            'video_enable': 'true',
+            'video_enable': LaunchConfiguration('video_enable'),
             'image_topic': '/camera/image_raw',
             'tcp_enable': 'true',
             'tcp_host': '127.0.0.1',
@@ -61,9 +72,12 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         arguments=['-d', rviz_config_path],
-        output='screen'
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('use_rviz'))
     )
 
+    ld.add_action(use_rviz_arg)
+    ld.add_action(video_enable_arg)
     ld.add_action(go2_base_launch)
     ld.add_action(pointcloud_process_launch)
     ld.add_action(slam_toolbox_launch)

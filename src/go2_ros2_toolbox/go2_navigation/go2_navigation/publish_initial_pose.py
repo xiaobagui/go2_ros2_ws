@@ -93,7 +93,8 @@ def parse_args():
     parser.add_argument('--topic', default='/initialpose')
     parser.add_argument('--repeat', type=int, default=5)
     parser.add_argument('--period', type=float, default=0.5)
-    return parser.parse_args()
+    args, _ros_args = parser.parse_known_args()
+    return args
 
 
 def main():
